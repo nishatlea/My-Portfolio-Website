@@ -1,5 +1,9 @@
 use node v14.21.3
 
+npm install animation.css 
+npm install react-on-screen
+npm install bootstrap 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
