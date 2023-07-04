@@ -49,7 +49,7 @@ export const Footer = () => {
                 </li>
                 <li>
                   <a href="#!" class="text-white">
-                    Shipping Information
+                    Contact Information
                   </a>
                 </li>
                 <li>
