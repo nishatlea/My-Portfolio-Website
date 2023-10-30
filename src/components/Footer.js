@@ -95,8 +95,8 @@ export const Footer = () => {
         </div>
 
         <div class="text-center p-3 border-top border-white">
-          <a class="text-white" href="https://mdbootstrap.com/">
-            MDBootstrap.com
+          <a class="text-white" href="https://github.com/nishatlea">
+            Nishat_Lea
           </a>
         </div>
       </footer>
