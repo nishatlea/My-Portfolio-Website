@@ -8,6 +8,8 @@ import { Projects } from "./components/Projects";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Footer } from "./components/Footer";
 import { AudioIntro } from "./components/AudioIntro";
+import { Education } from "./components/Education";
+import { Achievements } from "./components/Achievements";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
+      <Education />
+      <Achievements />
       <AudioIntro />
       <Footer />
     </div>
