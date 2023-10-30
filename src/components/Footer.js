@@ -1,9 +1,15 @@
 import React from "react";
 
 export const Footer = () => {
+  const footerStyle = {
+    margin: "30px",
+  };
   return (
-    <div class="container my-">
-      <footer class="text-center text-lg-start border border-white mt-xl-5 pt-4">
+    <div class="container">
+      <footer
+        style={footerStyle}
+        class="text-center text-lg-start border border-white pt-4"
+      >
         <div class="container p-4">
           <div class="row">
             <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
