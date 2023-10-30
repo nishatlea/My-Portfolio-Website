@@ -1,0 +1,19 @@
+/* In your CSS file or inline styles */
+.responsive-image-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 16px; /* Optional padding for smaller screens */
+  }
+  
+  .image-list {
+    width: 100%;
+  }
+  
+  @media (min-width: 600px) {
+    .image-list {
+      width: 1000px; /* Adjust the width for larger screens */
+    }
+  }
+  

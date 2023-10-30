@@ -46,7 +46,7 @@ export const Projects = () => {
     <section className="projects" id="projects">
       <Container>
         <Row>
-          <Col size={12}>
+          <Col>
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
@@ -54,7 +54,9 @@ export const Projects = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h2>Projects</h2>
+                  <h2 style={{ fontSize: "45px", fontWeight: "700" }}>
+                    Projects
+                  </h2>
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's

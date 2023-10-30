@@ -6,19 +6,22 @@ import ListSubheader from "@mui/material/ListSubheader";
 import IconButton from "@mui/material/IconButton";
 import InfoIcon from "@mui/icons-material/Info";
 import { Container } from "react-bootstrap";
-import { Row, Col, Tab, Nav } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
+import "./Achievements.css";
 
 export const Achievements = () => {
   return (
     <Container>
       <Row>
         <Col size={12}>
-          <h2> Achievements</h2>
-          <center>
-            <ImageList sx={{ width: 1000, height: 450 }}>
-              <ImageListItem key="Subheader" cols={2}>
+          <h2 style={{ fontSize: "45px", fontWeight: "700" }}> Achievements</h2>
+          <div className="responsive-image-list">
+            <ImageList
+              className="image-list"
+              cols={3} // Number of columns for larger screens
+            >
+              <ImageListItem key="Subheader" cols={3}>
                 <ListSubheader component="div">
-                  {" "}
                   Some glorious moments...
                 </ListSubheader>
               </ImageListItem>
@@ -45,13 +48,12 @@ export const Achievements = () => {
                 </ImageListItem>
               ))}
             </ImageList>
-          </center>
+          </div>
         </Col>
       </Row>
     </Container>
   );
 };
-
 const itemData = [
   {
     img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",

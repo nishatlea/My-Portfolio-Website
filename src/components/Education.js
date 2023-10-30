@@ -21,7 +21,7 @@ export const Education = () => {
     <Container>
       <Row>
         <Col size={12} style={educationStyle}>
-          <h2> Education</h2>
+          <h2 style={{ fontSize: "45px", fontWeight: "700" }}> Education</h2>
           <center>
             {/* card1 */}
             <Card sx={{ maxWidth: 800 }} style={cardStyle}>

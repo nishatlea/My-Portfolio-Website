@@ -66,7 +66,7 @@ export const AudioIntro = () => {
       <Container>
         <Row>
           <Col size={12}>
-            <h2>Audio Intro</h2>
+            <h2 style={{ fontSize: "45px", fontWeight: "700" }}>Audio Intro</h2>
             <Widget>
               <Box sx={{ display: "flex", alignItems: "center" }}>
                 <CoverImage>
